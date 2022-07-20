@@ -538,6 +538,22 @@
     </dependency>
 
   </dependencies>
+
+
+  <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>spark-core_2.12-releases</name>
+        <url>https://artifactory.incortalabs.com/artifactory/incortax-mvn-dev-local</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>spark-core_2.12-snapshots</name>
+        <url>https://artifactory.incortalabs.com/artifactory/incortax-mvn-dev-local</url>
+    </snapshotRepository>
+  </distributionManagement>
+
+
   <build>
     <outputDirectory>target/scala-${scala.binary.version}/classes</outputDirectory>
     <testOutputDirectory>target/scala-${scala.binary.version}/test-classes</testOutputDirectory>
