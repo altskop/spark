@@ -542,13 +542,13 @@
 
   <distributionManagement>
     <repository>
-        <id>central</id>
-        <name>spark-core_2.12-releases</name>
+        <id>incortax-central</id>
+        <name>incortax-central-releases</name>
         <url>https://artifactory.incortalabs.com/artifactory/incortax-mvn-dev-local</url>
     </repository>
     <snapshotRepository>
-        <id>snapshots</id>
-        <name>spark-core_2.12-snapshots</name>
+        <id>incortax-snapshots</id>
+        <name>incortax-central-snapshots</name>
         <url>https://artifactory.incortalabs.com/artifactory/incortax-mvn-dev-local</url>
     </snapshotRepository>
   </distributionManagement>
