@@ -27,7 +27,7 @@
           </snapshots>
           <id>incortax-central</id>
           <name>incortax-mvn-dev-local</name>
-          <url>_REPLACE_ME_</url>
+          <url>${env.ARTIFACTORY_REPO_URL}</url>
         </repository>
         <repository>
           <snapshots>
@@ -35,7 +35,7 @@
           </snapshots>
           <id>incortax-snapshots</id>
           <name>incortax-mvn-dev-local</name>
-          <url>_REPLACE_ME_</url>
+          <url>${env.ARTIFACTORY_REPO_URL}</url>
         </repository>
       </repositories>
       <pluginRepositories>
@@ -45,13 +45,13 @@
           </snapshots>
           <id>incortax-central</id>
           <name>incortax-mvn-dev-local</name>
-          <url>_REPLACE_ME_</url>
+          <url>${env.ARTIFACTORY_REPO_URL}</url>
         </pluginRepository>
         <pluginRepository>
           <snapshots />
           <id>incortax-snapshots</id>
           <name>incortax-mvn-dev-local</name>
-          <url>_REPLACE_ME_</url>
+          <url>${env.ARTIFACTORY_REPO_URL}</url>
         </pluginRepository>
       </pluginRepositories>
       <id>artifactory</id>

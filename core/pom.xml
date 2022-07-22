@@ -544,12 +544,12 @@
     <repository>
         <id>incortax-central</id>
         <name>incortax-central-releases</name>
-        <url>https://artifactory.incortalabs.com/artifactory/incortax-mvn-dev-local</url>
+        <url>${env.ARTIFACTORY_REPO_URL}</url>
     </repository>
     <snapshotRepository>
         <id>incortax-snapshots</id>
         <name>incortax-central-snapshots</name>
-        <url>https://artifactory.incortalabs.com/artifactory/incortax-mvn-dev-local</url>
+        <url>${env.ARTIFACTORY_REPO_URL}</url>
     </snapshotRepository>
   </distributionManagement>
 
